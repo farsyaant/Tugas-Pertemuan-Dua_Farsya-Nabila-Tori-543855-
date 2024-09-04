@@ -11,7 +11,7 @@ int main () // kepala fungsi
 
 // kalkulasi perhitungan pajak, cicilan, asuransi, dan gaji bersih
     pajak = 0.20*gaji_kotor;
-    cicilan = 0.2*gaji_kotor;
+    cicilan = 0.015*gaji_kotor;
     asuransi = 0.01*gaji_kotor;
     gaji_bersih = gaji_kotor-pajak-cicilan-asuransi;
     
