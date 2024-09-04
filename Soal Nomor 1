@@ -3,7 +3,7 @@
 using namespace std; // mengaktifkan rentang nama fungsi std::cout dan std::cin
 
 int main () // kepala fungsi
-{ string nama; long gaji_kotor, pajak, cicilan, asuransi, gaji_bersih; // mendeklarasikan variabel nama dan gaji kotor
+{ string nama; long gaji_kotor, pajak, cicilan, asuransi, gaji_bersih; // mendeklarasikan variabel nama, gaji kotor. pajak, cicilan, asuransi, dan gaji bersih
 
 // fungsi yang meminta input dari pengguna
     cout << "Nama: "; cin >> nama;
