@@ -15,7 +15,6 @@ int main () // kepala fungsi
     asuransi = 0.01*gaji_kotor;
     gaji_bersih = gaji_kotor-pajak-cicilan-asuransi;
     
-
 // pemberi jarak antara input dengan output
     cout << " " << endl;
     
