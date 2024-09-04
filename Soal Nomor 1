@@ -1,0 +1,26 @@
+#include <iostream> // menyertakan perpustakaan iostream untuk fungsi output dan input
+#include <string> // menyertakan perpustakaan string untuk mendeklarasikan tipe data string
+using namespace std; // mengaktifkan rentang nama fungsi std::cout dan std::cin
+
+int main () // kepala fungsi
+{ string nama; int gaji_kotor; // mendeklarasikan variabel nama dan gaji kotor
+
+// fungsi yang meminta input dari pengguna
+    cout << "Nama: "; cin >> nama;
+    cout << "Gaji Kotor: Rp "; cin >> gaji_kotor; 
+
+// pemberi jarak antara input dengan output
+    cout << " " << endl;
+    
+// fungsi yang menampilkan output
+    cout << "Slip Gaji untuk Karyawan: " << endl;
+    cout << "-------------------------" << endl;
+    cout << "Nama: " << nama << endl;
+    cout << "Gaji Kotor: Rp " << gaji_kotor << endl;
+    cout << "Pajak (20%): Rp " << 0.20*gaji_kotor << endl;
+    cout << "Cicilan: Rp " << 0.2*gaji_kotor << endl;
+    cout << "Asuransi: Rp " << 0.01*gaji_kotor << endl;
+    cout << "Gaji Bersih: Rp " << gaji_kotor-(0.20*gaji_kotor)-(0.2*gaji_kotor)-(0.01*gaji_kotor) << endl;
+    
+    return 0; // akhir program
+}
